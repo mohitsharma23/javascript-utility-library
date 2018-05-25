@@ -15,21 +15,29 @@ arr.__countNum(5)
 -> 3
 ```
 - Get random value from the array elements
-`arr.random()`
+```
+arr.random()
+```
 - Get a unique array from the array given
 ```
 arr.__unique()
 ->[1,2,3,5]
 ```
 - Remove element from the array (by giving the element, not the index of element)
-`arr.__eRemove()`
+```
+arr.__eRemove()
+```
 - Convert Array to Object
-`arr.__toObj()`
+```
+arr.__toObj()
+```
 
 #### String Utilities:
 `var str = 'The quick brown fox jumps over the lazy dog'`
 - Get the string with capital first word if not
-`str.__capitalize()`
+```
+str.__capitalize()
+```
 - Get the total occurences of a word in a string
 ```
 str.__totalOcc('the')
@@ -41,13 +49,21 @@ str.__endsWith('dog')
 ->true
 ```
 - Check if the string contains only Alphanumeric Characters
-`str.__isAplhaNum()`
+```
+str.__isAplhaNum()
+```
 - Returns an array with first element being the longest element and second element being the length of longest element
-`str.__maxWord()`
+```
+str.__maxWord()
+```
 - Returns an array with first element being the smalles element and second element being the length of smallest element
-`str.__minWord()`
+```
+str.__minWord()
+```
 - Swapcase the string
-`str.__swapCase()`
+```
+str.__swapCase()
+```
 
 ## Contributions
 I am happy to take any contributions and increase the utilities the library offers so as to make it easier for everyone.
